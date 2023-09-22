@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 12px;
+    margin: 50px 50px;
+}
+.box {
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.color1 {
+    background: orange;
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+.color2 {
+    background: orange;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    height: 390px;
+}
+.color3 {
+    background: orange;
+    grid-column: 2/7;
+    grid-row: 2/5;
+    height: 390px;
+}
+.color4 {
+    background: orange;
+    grid-column: 7/8;
+    grid-row: 2/5;
+    height: 390px;
+}
+.color5 {
+    background: orange;
+    grid-column: 1/8;
+    grid-row: 5/6;
+}
